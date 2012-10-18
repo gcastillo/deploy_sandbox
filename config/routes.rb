@@ -1,4 +1,8 @@
 DeploySandbox::Application.routes.draw do
+  get "welcome/index"
+
+  resources :cars
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
